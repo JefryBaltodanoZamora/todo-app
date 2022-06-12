@@ -59,6 +59,7 @@ class App extends Component {
 
     return(
       <div className="App">
+        <Navigation title="Tasks" length={this.state.tasks.length}/>
         <Navigation/>
         <div className="container">
           <div className="row mt-4">
